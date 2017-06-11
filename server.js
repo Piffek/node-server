@@ -12,7 +12,7 @@ function onRequest(request, response){
 	
 	if(request.method == 'GET' && request.url == '/'){
 		response.writeHead(200, {'Content-Type': 'text/html'});
-		fileSystem.createReadStream(__dirname + '/index.html').pipe(response);
+		fileSystem.createReadStream(__dirname + '/index.php').pipe(response);
 	
 	}else{
 		send404Response(response);

@@ -1,0 +1,20 @@
+{
+  "name": "issue_tracker",
+  "version": "1.0.0",
+  "description": "issue",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piffek/node-server.git"
+  },
+  "author": "Patryk Piwko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piffek/node-server/issues"
+  },
+  "homepage": "https://github.com/Piffek/node-server#readme"
+}
